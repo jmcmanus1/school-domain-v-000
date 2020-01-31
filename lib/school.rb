@@ -1,7 +1,8 @@
+require 'pry'
 class School
   attr_reader :roster
 
-  ROSTER = {}
+  @@ROSTER = {}
 
   def initialize(name)
     @name = name
@@ -9,6 +10,6 @@ class School
   end
 
   def add_student(name, grade)
-    ROSTER[grade] = name
+    @@ROSTER ROSTER[grade] = name
   end
 end
