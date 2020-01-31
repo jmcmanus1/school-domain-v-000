@@ -1,4 +1,5 @@
 require 'pry'
+
 class School
   attr_reader :roster
 
@@ -10,6 +11,6 @@ class School
   end
 
   def add_student(name, grade)
-    @@ROSTER ROSTER[grade] = name
+    @@ROSTER[grade] = name
   end
 end
