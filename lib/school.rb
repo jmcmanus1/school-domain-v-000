@@ -11,7 +11,6 @@ class School
   end
 
   def add_student(name, grade)
-    binding.pry
-  #  @@ROSTER[grade] = name
+    @@ROSTER[grade] = name
   end
 end
